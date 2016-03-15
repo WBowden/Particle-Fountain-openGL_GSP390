@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="codegiraffe">
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="codegiraffe\aabb.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\box.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\circle.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\glutrenderingcontext.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\random.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\templatearray.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\templatevector.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\v2.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\cone.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\templatehashmap.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\polygon.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\templatevectorlist.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\templateset.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+    <ClInclude Include="codegiraffe\vec3f.h">
+      <Filter>codegiraffe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="codegiraffe\circle.cpp">
+      <Filter>codegiraffe</Filter>
+    </ClCompile>
+    <ClCompile Include="codegiraffe\glutrenderingcontext.cpp">
+      <Filter>codegiraffe</Filter>
+    </ClCompile>
+    <ClCompile Include="codegiraffe\random.cpp">
+      <Filter>codegiraffe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codegiraffe\vec3f.cpp">
+      <Filter>codegiraffe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
